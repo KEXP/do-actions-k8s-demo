@@ -17,6 +17,15 @@ Simple image. Take code, copy in....build. yay
 
 # Actions
 
+3 secrets are used to ensure communication and flow are successful:
+
+1. CLUSTER_NAME
+2. DIGITALOCEAN_ACCESS_TOKEN
+3. REGISTRY_NAME
+
+The clustername being the name of the k8s cluster this is using, access token being the api token made for this particular use, registry name being the name of the container registry where the images are kept.
+
+
 workflow.yaml
 
 - github action sees a file being watched has been updated
