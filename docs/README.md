@@ -1,1 +1,1 @@
-![Overview Diagram](overview.drawio.png)
+![Overview Diagram](diagram.png)
