@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: hello-hostname-service
 spec:
+  ports:
+    - port: 80
+      targetPort: 8080
+      protocol: TCP
   selector:
     app: hello-hostname
-  ports:
-    - port: 8080
-      targetPort: 8080
-  type: LoadBalancer
